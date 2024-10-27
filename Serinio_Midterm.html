@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="photo.png" type="image/png">
+    <title>Stella Marie Serinio's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="photo.jpg" alt="auto" class="photo">
+    <header class="header">
+        <a href="#home" class="logo">Stella.</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+        <!--SECTION HOME-->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Stella Marie Serinio</h1>
+            <h3>2nd Year BSIT Student</h3>
+            <p>I am from Toledo City, Cebu. A BSIT student who aspire to
+                become great developer in this field. </p>
+
+                <section id="get" class="btn-1">
+                    <div class="btn-box">
+                        <a href="#about" class="btn-1">Get to know Me!</a>
+                    </div>
+                </section>
+        </div>
+    </section>
+        <!--SECTION ABOUT-->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="box">
+                <a href="#img1">
+                    <img src="mooon.jpg" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="#img2">
+                    <img src="macee.jpg" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="#img3">
+                    <img src="MAKIII.jpg" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="#img4">
+                    <img src="mallow.jpg" alt="">
+                </a>
+            </div>
+            <div class="box">
+                <a href="#img5">
+                    <img src="cocooo.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="img1" class="modal">
+            <a href="#about" class="close">&times;</a>
+            <img class="modal-content" src="mooon.jpg" alt="">
+        </div>
+        <div id="img2" class="modal">
+            <a href="#about" class="close">&times;</a>
+            <img class="modal-content" src="macee.jpg" alt="">
+        </div>
+        <div id="img3" class="modal">
+            <a href="#about" class="close">&times;</a>
+            <img class="modal-content" src="MAKIII.jpg" alt="">
+        </div>
+        <div id="img4" class="modal">
+            <a href="#about" class="close">&times;</a>
+            <img class="modal-content" src="mallow.jpg" alt="">
+        </div>
+        <div id="img5" class="modal">
+            <a href="#about" class="close">&times;</a>
+            <img class="modal-content" src="cocooo.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <p class="text">I'm Stella, currently studying BSIT at Cebu Technological University (Main Campus).
+                I'm an animal lover—we have fur babies at home: a mama cat
+                and her two kittens, and an adult black-and-white aspin. Aside from my family, they are
+                also one of my inspiration and other fur babies out there on why I want to succeed in life.
+                As human beings deserve to have a great life, do they are.
+                Aside from that, I love appreciating nature. I could sit and just watch the surroundings
+                full of the beauty in it.</p>
+        </div>
+    </section>
+        <!--SECTION EDUCATION-->
+    <section id="education" class="education">
+        <div class="education-content">
+            <h2 class="heading">My Education</h2>
+            <div class="container">
+                <div class="card__container">
+                    <article class="card__article">
+                        <img src="NCC.jpg" class="card_img" alt="">
+                        <div class="card__data">
+                            <h3 class="card__title">NORTH CITY CENTRAL SCHOOL</h3>
+                            <span class="card__description">Osmena St, Toledo City, Cebu</span>
+                            <button class="card__button" onclick="document.getElementById('modal1').style.display='block'">Read More</button>
+                        </div>
+                    </article>
+    
+                    <article class="card__article">
+                        <img src="LHS.jpg" class="card_img" alt="">
+                        <div class="card__data">
+                            <h3 class="card__title">LURAY II NATIONAL HIGHSCHOOL</h3>
+                            <span class="card__description">Diosdado Macapagal Highway, Toledo City, Cebu</span>
+                            <button class="card__button" onclick="document.getElementById('modal2').style.display='block'">Read More</button>
+                        </div>
+                    </article>
+    
+                    <article class="card__article">
+                        <img src="pegafi2.0.jpg" class="card_img" alt="">
+                        <div class="card__data">
+                            <h3 class="card__title">PEGAFI</h3>
+                            <span class="card__description">Mercado St, Toledo City, Cebu</span>
+                            <button class="card__button" onclick="document.getElementById('modal3').style.display='block'">Read More</button>
+                        </div>
+                    </article>
+    
+                    <article class="card__article">
+                        <img src="ctu2.0.jpg" class="card_img" alt="">
+                        <div class="card__data">
+                            <h3 class="card__title">CEBU TECHNOLOGICAL UNIVERSITY - MAIN CAMPUS</h3>
+                            <span class="card__description">M.J. Cuenco Ave, Cor R. Palma Street, Cebu City</span>
+                            <button class="card__button" onclick="document.getElementById('modal4').style.display='block'">Read More</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+            <img src="NCC.jpg" alt="North City Central School" class="modal">
+            <p>Osmena St, Toledo City, Cebu</p>
+            <p>Before I graduated elementary, it was during our practice inside the classroom that our adviser gave us a piece of paper to fill out, without knowing it is an academic scholarship that will help my education until this day.<br>(2011-2017)</p>
+            <p>Graduated with honors</p>
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+            <img src="LHS.jpg" alt="Luray II National Highschool" class="modal">
+            <p>Diosdado Macapagal Highway, Toledo City, Cebu</p>
+            <p>Entering high school was very different for me. I did not appreciate how my adviser challenged us in every performance in school; I still felt like a pupil. Despite all the hardships, he became my favorite teacher.<br>(2017-2020)</p>
+            <p>Moving up with honors</p>
+        </div>
+    </div>
+    
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modal3').style.display='none'">&times;</span>
+            <img src="pegafi2.0.jpg" alt="PEGAFI" class="modal">
+            <p>Mercado St, Toledo City, Cebu</p>
+            <p>A new environment yet seeing familiar faces from junior high school. I was a bit curious about the ways of a private school. Carrying the advice from the teacher that has been very good to me since I entered high school: "Don't just stay in this school; I know you can do more and achieve more than you expected."<br>(2020-2023)</p>
+            <p>Graduated with high honors</p>
+        </div>
+    </div>
+    
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('modal4').style.display='none'">&times;</span>
+            <img src="ctu2.0.jpg" alt="Cebu Technological University - Main Branch" class="modal">
+            <p>M.J. Cuenco Ave, Cor R. Palma Street, Cebu City</p>
+            <p>Being afraid but a risk-taker at the same time, I decided to apply to CTU MC. I was not confident enough that I could pass, but maybe it's true that things always happen when you least expect it. Left home for the time being, in order to aim that ambition.<br>(2023-Present)</p>
+            <p>Bachelor of Science Major in Information Technology</p>
+        </div>
+    </div>
+
+        <!--SECTION SKILLS-->
+        <section id="skills">
+    <h2>Soft Skills</h2>
+    <div class="skill">
+        <label>Problem-Solving</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 50%;">50%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <label>Communication</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 60%;">60%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <label>Time Management</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 80%;">80%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <label>Teamwork and Collaboration</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 88%;">88%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <label>Adaptability</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%;">75%</div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <label>Attention to Detail</label>
+        <div class="progress-bar">
+            <div class="progress" style="width: 70%;">70%</div>
+        </div>
+    </div>
+</section>
+
+
+        <!--SECTION CONTACT-->
+    <section id="contact" class="contact">
+        <div class="contact-content"></div>    
+    </section>
+    <div class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Reach me via email, Facebook, Instagram, or Tiktok!</p>
+    
+        <!-- Contact Icons -->
+        <div class="contact-icons">
+            <!-- Email Icon -->
+            <a href="stellaserinio@gmail.com" target="_blank">
+                <img src="email-icon.png" alt="">
+            </a>
+    
+            <!-- Facebook Icon -->
+            <a href="https://www.facebook.com/stellam.serinio?mibextid=ZbWKwL" target="_blank">
+                <img src="facebook-icon.png" alt="">
+            </a>
+    
+            <!-- Instagram Icon -->
+            <a href="https://instagram.com/_stelmari">
+                <img src="instagram-icon.png" alt="">
+            </a>
+
+            <!-- Tiktok Icon-->
+            <a href="https://tiktok.com/@youfoundsm" target="_blank">
+                <img src="tiktok-icon.png" alt="">
+            </a>
+        </div>
+    </div>
